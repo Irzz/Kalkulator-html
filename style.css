@@ -1,0 +1,95 @@
+body{
+    background-color: #cc445f;
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.card{
+    background-color: #E9EBD9;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0, 0, 0, 0.16); 
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+        
+.display{
+    background-color: #ffffff;
+    box-shadow: inset 2px 3px 11px rgb(0, 0, 0, 0.16), 5px 5px 12px #fff; 
+    height: 35%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.display input{
+    background-color: transparent;
+    border: none;
+    text-align: end;
+    font-size: 30px;
+    width: 90%;
+    outline: none;
+}
+
+.button{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.left-button{
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.number{
+    background-color: #85073B;
+    box-shadow: inset 5px 5px 12px #D18CA9, 5px 5px 12px rgb(0, 0, 0, 0.16); 
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.operator{
+    background-color: #878463 ;
+    box-shadow: inset 5px 5px 12px #D1BD0C, 5px 5px 12px rgb(0, 0, 0, 0.16); 
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.tombol:hover{
+    transform: scale(0.9);
+}
+
+.right-button{
+    background-color: rgb(142, 182, 105);
+    width: 30%;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset 5px 5px 12px rgb(0, 0, 0, 0.26), 5px 5px 12px #fff;
+}
+
